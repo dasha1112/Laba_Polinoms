@@ -1,0 +1,10 @@
+^D:\LABA_ALG\LABA_POLINOMS\BUILD\CMAKEFILES\47CE576A9A37EEA11CB7946B00F7E95E\GENERATE.STAMP.RULE
+setlocal
+D:\Downloads\bin\cmake.exe -SD:/Laba_alg/Laba_Polinoms -BD:/Laba_alg/Laba_Polinoms/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Laba_alg/Laba_Polinoms/build/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
