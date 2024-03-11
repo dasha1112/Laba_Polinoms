@@ -1,0 +1,3 @@
+﻿  TPolinom.cpp
+D:\Laba_alg\Laba_Polinoms\src\TPolinom.cpp(148,32): warning C4552: "*": результат выражения не используется
+  set.vcxproj -> D:\Laba_alg\Laba_Polinoms\build\lib\Debug\set.lib
